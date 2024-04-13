@@ -115,7 +115,7 @@ void main()
     Timer0_Init();
     TR0 = 0;
     Lcd12864_Init();
-    Lcd12864_ShowString(0, 0, "¼Ò¾Óxt");
+    Lcd12864_ShowString(0, 0, "znjjxt");
     Lcd12864_ShowString(1, 0, "0826");
     DS1302_Init();
     DS1302_SetTime();
